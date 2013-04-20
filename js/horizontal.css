@@ -1,0 +1,36 @@
+/* 
+MONDAY BY NOON
+Suckerfish HoverLightbox Example - Vanilla stylesheet
+Version: 1.0
+Last Modified 03/27/06
+J. Christopher - www.MondayByNoon.com
+
+CREDITS
+-------
+
+Suckerfish: Patrick Griffiths, Dan Webb
+    http://www.alistapart.com/articles/dropdowns/
+  Modification: http://www.htmldog.com/articles/suckerfish/dropdowns/
+
+Hoverbox: Nathan Smith.
+  Example: http://host.sonspring.com/hoverbox/
+  Tutorial: http://sonspring.com/journal/hoverbox-image-gallery/
+  Modification by: Craig Erskine
+    http://solardreamstudios.com/
+    http://solardreamstudios.com/_img/learn/css/pg/
+
+Lightbox: Lokesh Dhakar
+  http://www.huddletogether.com/projects/lightbox/
+
+*/
+
+* { margin:0; border:0; padding:0; }
+body { font:12px Tahoma, sans-serif; color:#000; margin:20px; }
+p { clear:both; }
+
+
+ul#gallery li a:hover img, ul#gallery li a:active img, ul#gallery li a:focus img { 
+           width:200px; height:150px; left:-50px; top:-37px; z-index:1; 
+					 border:1px solid #000; }
+
+
